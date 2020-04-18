@@ -1,0 +1,4 @@
+baseURL = "http://katesteachingportfolio.com/"
+languageCode = "en-us"
+title = "Kate's Teaching Portfolio"
+theme = "hugo-minimalist-spa" 
