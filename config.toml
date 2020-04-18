@@ -1,4 +1,5 @@
 baseURL = "http://katesteachingportfolio.com/"
+author = "Kaitlyn Duignan"
 languageCode = "en-us"
 title = "Kate's Teaching Portfolio"
 theme = "hugo-minimalist-spa" 
