@@ -127,17 +127,12 @@ googleAnalytics = "" #put your google-analytics ID here
     description = "Check out my blog for the lastest readings."
 
     second_title = "Contact Me"
+    email = "kcduigna@gmail.com"
+
     [[params.footer.action]]
       href = "generic.html"
       buttontext = "Blog"
 
-    # social icons
-    [params.footer.social_list]
-      enable = true
-
-      [[params.footer.social]]        
-        icon = "fa-envelope"
-        link = "kcduigna@gmail.com"
 
     # copyright
     [params.footer.copyright]
