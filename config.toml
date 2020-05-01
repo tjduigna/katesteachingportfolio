@@ -9,7 +9,7 @@ googleAnalytics = "" #put your google-analytics ID here
 [params]
   [params.header]
     title = "Kaitlyn C. Duignan"
-    description = 'Hello and welcome to my teaching protfolio. '
+    description = 'Hello and welcome to my teaching portfolio. '
     #image = "images/logo.png"
 
   [[params.navigation]]
