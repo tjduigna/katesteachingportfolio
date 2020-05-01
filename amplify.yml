@@ -7,7 +7,7 @@ frontend:
         - tar -xf hugo_extended_0.69.0_Linux-64bit.tar.gz
         - mv hugo /usr/bin/hugo
         - rm -rf hugo_extended_0.69.0_Linux-64bit.tar.gz
-        - hugo
+        - hugo -t hugo-stellar-theme
   artifacts:
     baseDirectory: public
     files:
