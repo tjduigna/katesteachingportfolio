@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Stellar Theme"
+title = "Kate's Teaching Portfolio"
 theme = "hugo-stellar-theme"
 
 googleAnalytics = "" #put your google-analytics ID here
@@ -50,19 +50,38 @@ googleAnalytics = "" #put your google-analytics ID here
     [params.section.features]
       enable = true
       [[params.section.feature]]
-        title = "Ipsum consequat"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        title = "Curriculum"
+        description = """Units and lessons based on state standards, approved developmental
+        milestones, student interest, and creating cross-curricular connections."""
         icon = "fa-code"
 
       [[params.section.feature]]
-        title = "Amed sed feugiat"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        title = "Assessments"
+        description = """Pre-Assessments; Summative Assessments; Formative Assessments;
+        Standadized or Norm Tests"""
         icon = "fa-copy"
 
       [[params.section.feature]]
-        title = "Dolor nullam"
+        title = "Differentiation"
         description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
         icon = "fa-diamond"
+
+      [[params.section.feature]]
+        title = "Life Long Learner"
+        description = """Even as a teacher I am a life long learner. Demonstrating to students to do
+        the same. Expose them to opportunities to develop this love of learning"""
+        icon = "fa-diamond"
+
+      [[params.section.feature]]
+        title = "Collaboration and Communication"
+        description = """Principal, direcotr, co-teachers, parents/ guardians"""
+        icon = "fa-code"
+
+      [[params.section.feature]]
+        title = "Classroom Management"
+        description = """Positivie guidance; PBIS; Verbal and non-verabl communication"""
+        icon = "fa-copy"
+
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
@@ -77,33 +96,37 @@ googleAnalytics = "" #put your google-analytics ID here
       enable = true
       [[params.section.statistic]]
         icon = "fa-code-fork"
-        value = "5,120"
-        text = "Etiam"
+        value = "Fourth Grade"
+        text = "Reader's Workshop"
+        buttontext = "Lesson Plan"
+        buttonUrl = "generic.html"
       [[params.section.statistic]]
         icon = "fa-folder-open-o"
-        value = "8,192"
-        text = "Magna"
-      [[params.section.statistic]]
-        icon = "fa-signal"
-        value = "2,048"
-        text = "Tempus"
-      [[params.section.statistic]]
-        icon = "fa-laptop"
-        value = "4,096"
-        text = "Aliquam"
-      [[params.section.statistic]]
-        icon = "fa-diamond"
-        value = "1,024"
-        text = "Nullam"
+        value = "Second Grade"
+        text = "Insects"
+
+
+#      [[params.section.statistic]]
+      #   icon = "fa-signal"
+      #   value = "Second Grade"
+      #   text = "Human Body"
+      # [[params.section.statistic]]
+      #   icon = "fa-diamond"
+      #   value = "3-K"
+      #   text = "Density"
+      # [[params.section.statistic]]
+      #   icon = "fa-diamond"
+      #   value = "3-K"
+      #   text = "Number Study"
 
     [params.section.content]
       enable = true
-      text = "Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia."
+      text = "hello world"
 
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "Learn More"
+        buttontext = "Reader's Workshop"
         buttonUrl = "generic.html"
 
 
