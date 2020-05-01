@@ -92,32 +92,28 @@ googleAnalytics = "" #put your google-analytics ID here
     id = "second"
     title = "Career"
     description = """Certification, Education, Teaching Experience"""
-    [params.section.statistics]
-      enable = true
-      [[params.section.statistic]]
-        icon = "fa-code-fork"
-        value = "Fourth Grade"
-        text = "Reader's Workshop"
-        buttontext = "Lesson Plan"
-        buttonUrl = "generic.html"
-      [[params.section.statistic]]
-        icon = "fa-folder-open-o"
-        value = "Second Grade"
-        text = "Insects"
-
-
-#      [[params.section.statistic]]
-      #   icon = "fa-signal"
-      #   value = "Second Grade"
-      #   text = "Human Body"
-      # [[params.section.statistic]]
-      #   icon = "fa-diamond"
-      #   value = "3-K"
-      #   text = "Density"
-      # [[params.section.statistic]]
-      #   icon = "fa-diamond"
-      #   value = "3-K"
-      #   text = "Number Study"
+#    [params.section.statistics]
+     #  enable = true
+     #  [[params.section.statistic]]
+     #    icon = "fa-code-fork"
+     #    value = "Fourth Grade"
+     #    text = "Reader's Workshop"
+     #  [[params.section.statistic]]
+     #    icon = "fa-folder-open-o"
+     #    value = "Second Grade"
+     #    text = "Human Body"
+     # [[params.section.statistic]]
+     #    icon = "fa-signal"
+     #    value = "Second Grade"
+     #    text = "Human Body"
+     #  [[params.section.statistic]]
+     #    icon = "fa-diamond"
+     #    value = "3-K"
+     #    text = "Number Study"
+     #  [[params.section.statistic]]
+     #     icon = "fa-diamond"
+     #     value = "3-K"
+     #     text = "Number Study"
 
     [params.section.content]
       enable = true
@@ -130,18 +126,24 @@ googleAnalytics = "" #put your google-analytics ID here
         buttonUrl = "generic.html"
 
 
+
   [[params.section]]
     id = "cta"
     title = "Lessons"
-    description = """Fourth Grade Guided Reading; 3-K Lesson on Octopi"""
+    description = """Fourth Grade Reader's Workshop Lesson: Blah Blah Blah.
+  
+    Second Grade Science Lesson: The Human Body.
+    3-k Number Study: The number 8 and octopi."""
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "Get Started"
+        buttontext = "4th Grade Reader's Workshop"
         buttonUrl = "generic.html"
-        customClass = "special"
       [[params.section.footer.action]]
-        buttontext = "Learn More"
+        buttontext = "2nd Grade The Human Body"
+        buttonUrl = "generic.html"
+      [[params.section.footer.action]]
+        buttontext = "3-K Number Study"
         buttonUrl = "generic.html"
 
   [params.footer]
@@ -153,7 +155,7 @@ googleAnalytics = "" #put your google-analytics ID here
     email = "kcduigna@gmail.com"
 
     [[params.footer.action]]
-      href = "generic.html"
+      href = "blog.html"
       buttontext = "Blog"
 
 
