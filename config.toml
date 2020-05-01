@@ -51,34 +51,34 @@ googleAnalytics = "" #put your google-analytics ID here
         title = "Curriculum"
         description = """Units and lessons based on state standards, approved developmental
         milestones, student interest, and creating cross-curricular connections."""
-        icon = "fa-code"
+        icon = "fa-tasks"
 
       [[params.section.feature]]
         title = "Assessments"
         description = """Pre-Assessments; Summative Assessments; Formative Assessments;
         Standadized or Norm Tests"""
-        icon = "fa-copy"
+        icon = "fa-pencil"
 
       [[params.section.feature]]
         title = "Differentiation"
         description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
-        icon = "fa-diamond"
+        icon = "fa-globe"
 
       [[params.section.feature]]
         title = "Life Long Learner"
         description = """Even as a teacher I am a life long learner. Demonstrating to students to do
         the same. Expose them to opportunities to develop this love of learning"""
-        icon = "fa-diamond"
+        icon = "fa-book"
 
       [[params.section.feature]]
         title = "Collaboration and Communication"
         description = """Principal, direcotr, co-teachers, parents/ guardians"""
-        icon = "fa-code"
+        icon = "fa-commenting"
 
       [[params.section.feature]]
         title = "Classroom Management"
         description = """Positivie guidance; PBIS; Verbal and non-verabl communication"""
-        icon = "fa-copy"
+        icon = "fa-users"
 
     [params.section.footer]
       enable = true
@@ -89,7 +89,25 @@ googleAnalytics = "" #put your google-analytics ID here
   [[params.section]]
     id = "cert"
     title = "Career"
-    description = """Certification, Education, Teaching Experience"""
+    description = ""
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "Certification"
+        description = """New York State Early Childhood Education, Birth - Grade 1;
+        New York State Early Childhood Education, Grade 1 - Grade 6"""
+        icon = "fa-certificate"
+
+      [[params.section.feature]]
+        title = "Education"
+        description = """Masters of Education, University at Buffalo, 2017;
+        Bachelor of Arts in English, SUNY Geneseo, 2015"""
+        icon = "fa-mortar-board"
+        [[params.section.feature]]
+          title = "Teaching Experience"
+          description = """"""
+          icon = "fa-suitcase"
+
 #    [params.section.statistics]
      #  enable = true
      #  [[params.section.statistic]]
@@ -113,14 +131,11 @@ googleAnalytics = "" #put your google-analytics ID here
      #     value = "3-K"
      #     text = "Number Study"
 
-    [params.section.content]
-      enable = true
-      text = "hello world"
 
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "Reader's Workshop"
+        buttontext = "Resume "
         buttonUrl = "generic.html"
 
 
@@ -129,7 +144,7 @@ googleAnalytics = "" #put your google-analytics ID here
     id = "lessons"
     title = "Lessons"
     description = """Fourth Grade Reader's Workshop Lesson: Blah Blah Blah.
-  
+
     Second Grade Science Lesson: The Human Body.
     3-k Number Study: The number 8 and octopi."""
     [params.section.footer]
