@@ -14,7 +14,7 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.navigation]]
     name = "Home"
-    href = "#home"
+    href = "#top"
 
   [[params.navigation]]
     name = "Philosophy"
