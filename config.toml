@@ -8,40 +8,44 @@ googleAnalytics = "" #put your google-analytics ID here
 
 [params]
   [params.header]
-    title = "Stellar"
-    description = 'Just another free, fully responsive site template built by [@ajlkn](https://twitter.com/ajlkn) for <a href="https://html5up.net">HTML5 UP</a>. Ported to [hugo](https://gohugo.io) by [@AntonPolishko](https://github.com/antonpolishko)'
+    title = "Kaitlyn C. Duignan"
+    description = 'Hello and welcome to my teaching protfolio. '
     image = "images/logo.svg"
 
   [[params.navigation]]
-    name = "Introduction"
-    href = "#intro"
+    name = "Home"
+    href = "#home"
 
   [[params.navigation]]
-    name = "First Section"
-    href = "#first"
+    name = "Philosophy"
+    href = "#teaching"
 
   [[params.navigation]]
-    name = "Second Section"
-    href = "#second"
+    name = "Career"
+    href = "#cert"
 
   [[params.navigation]]
-    name = "Get Started"
-    href = "#cta"
+    name = "Lessons"
+    href = "#lessons"
 
   [params.intro]
-    title = "Ipsum sed adipiscing"
-    description = "Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam."
-    image = "images/pic01.jpg"
-    [[params.intro.action]]
-      buttontext = "Learn More"
-      href = "generic.html"
+    title = "About Me"
+    description = """I am currently a passionate 3-K teacher working in NYC. My goal as
+    an early childhood educator is to provide engaging play based activities that develop
+    positive soical, emotional, and academic growith for all students. I am currently certified
+    in New York State as an earch childhood and childhood educator. Although I currently work in
+    the early childhood field, I also have esperience teaching in both second and fourth grade
+    classrooms. My teaching experience also extends to include rural and urban communities as well
+    as public and private institutions."""
+    image = "/images/face.png"
+
 
 
   [[params.section]]
     id = "first"
-    title = "Magna veroeros"
-    description = ""
-    
+    title = "Philosophy"
+    description = """Curriculum; Assessments; Differentiated"""
+
     # the picture is storead at static/images/
     [params.section.features]
       enable = true
@@ -67,9 +71,8 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.section]]
     id = "second"
-    title = "Ipsum consequat"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
-
+    title = "Career"
+    description = """Certification, Education, Teaching Experience"""
     [params.section.statistics]
       enable = true
       [[params.section.statistic]]
@@ -106,8 +109,8 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.section]]
     id = "cta"
-    title = "Congue imperdiet"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+    title = "Lessons"
+    description = """Fourth Grade Guided Reading; 3-K Lesson on Octopi"""
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
@@ -120,46 +123,16 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [params.footer]
     enable = true
-    title = "Aliquam sed mauris"
-    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+    title = "Mrs. D's Blog"
+    description = "Check out my blog for the lastest readings."
 
-    second_title = "Etiam feugiat"
-    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
-    phone = "(000) 000-0000 x 0000"
-    email = "information@untitled.tld"
+    second_title = "Contact Me"
+    email = "kcduigna@gmail.com"
 
     [[params.footer.action]]
       href = "generic.html"
-      buttontext = "Learn More"
+      buttontext = "Blog"
 
-    # social icons
-    [params.footer.social_list]
-      enable = true
-
-      [[params.footer.social]]
-        title = "Twitter"
-        icon = "fa-twitter"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Facebook"
-        icon = "fa-facebook"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Instagramm"
-        icon = "fa-instagram"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Dribbble"
-        icon = "fa-dribbble"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Email"
-        icon = "fa-envelope"
-        link = "#"
 
     # copyright
     [params.footer.copyright]

@@ -1,7 +1,0 @@
-[mail]
-    source = "images/social_media/email.svg"
-    target = "mailto:kccoons01@gmail.com"
-
-[home]
-	source = "images/social_media/home.svg"
-	target = "https://katesteachingportfolio.com"
