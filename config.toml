@@ -39,8 +39,6 @@ googleAnalytics = "" #put your google-analytics ID here
     as public and private institutions."""
     image = "/images/face.png"
 
-
-
   [[params.section]]
     id = "teaching"
     title = "Philosophy"
@@ -89,7 +87,7 @@ googleAnalytics = "" #put your google-analytics ID here
         buttonUrl = "generic.html"
 
   [[params.section]]
-    id = "second"
+    id = "cert"
     title = "Career"
     description = """Certification, Education, Teaching Experience"""
 #    [params.section.statistics]
@@ -128,7 +126,7 @@ googleAnalytics = "" #put your google-analytics ID here
 
 
   [[params.section]]
-    id = "cta"
+    id = "lessons"
     title = "Lessons"
     description = """Fourth Grade Reader's Workshop Lesson: Blah Blah Blah.
   
