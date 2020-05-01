@@ -10,7 +10,7 @@ googleAnalytics = "" #put your google-analytics ID here
   [params.header]
     title = "Kaitlyn C. Duignan"
     description = 'Hello and welcome to my teaching protfolio. '
-    image = "images/logo.svg"
+    #image = "images/logo.png"
 
   [[params.navigation]]
     name = "Home"
@@ -28,63 +28,79 @@ googleAnalytics = "" #put your google-analytics ID here
     name = "Lessons"
     href = "#lessons"
 
+
+
+
+
+
+
+
+
+
   [params.intro]
     title = "About Me"
     description = """I am currently a passionate 3-K teacher working in NYC. My goal as
     an early childhood educator is to provide engaging play based activities that develop
-    positive soical, emotional, and academic growith for all students. I am currently certified
-    in New York State as an earch childhood and childhood educator. Although I currently work in
-    the early childhood field, I also have esperience teaching in both second and fourth grade
+    positive social, emotional, and academic growth for all students. I am currently certified
+    in New York State in both early childhood and childhood education. Although I currently work in
+    the early childhood field, I also have experience teaching in both second and fourth grade
     classrooms. My teaching experience also extends to include rural and urban communities as well
     as public and private institutions."""
-    image = "/images/face.png"
+    image = "/images/logo.png"
+
+
+
+
+
+
+
+
 
   [[params.section]]
     id = "teaching"
     title = "Philosophy"
-    description = """Curriculum; Assessments; Differentiated"""
+    description = """*When you get, give. When you learn, teach.* -Maya Angelou"""
 
     # the picture is storead at static/images/
     [params.section.features]
       enable = true
       [[params.section.feature]]
         title = "Curriculum"
-        description = """Units and lessons based on state standards, approved developmental
-        milestones, student interest, and creating cross-curricular connections."""
+        description = ""
         icon = "fa-tasks"
 
       [[params.section.feature]]
         title = "Assessments"
-        description = """Pre-Assessments; Summative Assessments; Formative Assessments;
-        Standadized or Norm Tests"""
+        description = ""
         icon = "fa-pencil"
 
       [[params.section.feature]]
         title = "Differentiation"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        description = ""
         icon = "fa-globe"
 
       [[params.section.feature]]
-        title = "Life Long Learner"
-        description = """Even as a teacher I am a life long learner. Demonstrating to students to do
-        the same. Expose them to opportunities to develop this love of learning"""
-        icon = "fa-book"
+        title = "Classroom Management"
+        description = ""
+        icon = "fa-users"
 
       [[params.section.feature]]
         title = "Collaboration and Communication"
-        description = """Principal, direcotr, co-teachers, parents/ guardians"""
+        description = ""
         icon = "fa-commenting"
 
       [[params.section.feature]]
-        title = "Classroom Management"
-        description = """Positivie guidance; PBIS; Verbal and non-verabl communication"""
-        icon = "fa-users"
+        title = "Life Long Learner"
+        description = ""
+        icon = "fa-mortar-board"
 
-    [params.section.footer]
-      enable = true
-      [[params.section.footer.action]]
-        buttontext = "Learn More"
-        buttonUrl = "generic.html"
+
+
+
+
+
+
+
 
   [[params.section]]
     id = "cert"
@@ -94,18 +110,20 @@ googleAnalytics = "" #put your google-analytics ID here
       enable = true
       [[params.section.feature]]
         title = "Certification"
-        description = """New York State Early Childhood Education, Birth - Grade 1;
-        New York State Early Childhood Education, Grade 1 - Grade 6"""
+        description = """NYS Early Childhood Education, Birth - 1st Grade; NYS  Childhood Education, 1st Grade - 6th Grade"""
         icon = "fa-certificate"
 
       [[params.section.feature]]
         title = "Education"
         description = """Masters of Education, University at Buffalo, 2017;
         Bachelor of Arts in English, SUNY Geneseo, 2015"""
-        icon = "fa-mortar-board"
+        icon = "fa-university"
+
         [[params.section.feature]]
           title = "Teaching Experience"
-          description = """"""
+          description = """Assistant 3-K Teacher; Long Term Substitute 4th Grade;
+          Long Term Substitute Response to Intervention (RTI) Reading Teacher; Substitute Teacher Pre-K through
+          4th Grade; Student Teacher 2nd Grade; Student Teacher 4th Grade"""
           icon = "fa-suitcase"
 
 #    [params.section.statistics]
@@ -140,24 +158,65 @@ googleAnalytics = "" #put your google-analytics ID here
 
 
 
+
+
+
+
+
+
+
+
   [[params.section]]
     id = "lessons"
     title = "Lessons"
-    description = """Fourth Grade Reader's Workshop Lesson: Blah Blah Blah.
+    description = """"""
 
-    Second Grade Science Lesson: The Human Body.
-    3-k Number Study: The number 8 and octopi."""
+    [params.section.features]
+          enable = true
+    [[params.section.feature]]
+      title = "Fourth Grade Reader's Workshop"
+      description = """This lesson is the first in the series within a new unit.
+      The unit is an author study on Patricia Polacco with a central focus on theme within
+      her texts. This first lesson is a teacher lead, whole group completion of the *Patricia Polacco*
+      graphic organizer which will highligh the key information about Patricia Polacco's
+      writing."""
+      icon = "fa-book"
+    [[params.section.feature]]
+      title = "Second Grade Science Lesson"
+      description = """This lesson is the first within a new science unit focused on
+      exoloring the human body. It serves as an introduction to the unit as well as an
+      informal pre-assessment to gain a deeper understanding of the students knoweldge
+      of the human body and how it works."""
+      icon = "fa-flask"
+    [[params.section.feature]]
+      title = "3-K Number Study Lesson"
+      description = """This lesson is the eighth within a number study unit and
+      is centered around the theme of symmetry. Prior to this lesson, the children
+      were introduced to the concept of symmetry in a hands on activity. To also incorporate
+      the children's intersts, a lesson about octopi was created to provide information
+      as well as circle back to the central theme."""
+      icon = "fa-hashtag"
+
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "4th Grade Reader's Workshop"
+        buttontext = "Fourth Grade Lesson Plan"
         buttonUrl = "generic.html"
       [[params.section.footer.action]]
-        buttontext = "2nd Grade The Human Body"
+        buttontext = "Second Grade Lesson Plan"
         buttonUrl = "generic.html"
       [[params.section.footer.action]]
-        buttontext = "3-K Number Study"
+        buttontext = "3-K Lesson Plan"
         buttonUrl = "generic.html"
+
+
+
+
+
+
+
+
+
 
   [params.footer]
     enable = true
@@ -170,7 +229,6 @@ googleAnalytics = "" #put your google-analytics ID here
     [[params.footer.action]]
       href = "blog.html"
       buttontext = "Blog"
-
 
     # copyright
     [params.footer.copyright]
