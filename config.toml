@@ -42,7 +42,7 @@ googleAnalytics = "" #put your google-analytics ID here
 
 
   [[params.section]]
-    id = "first"
+    id = "teaching"
     title = "Philosophy"
     description = """Curriculum; Assessments; Differentiated"""
 
